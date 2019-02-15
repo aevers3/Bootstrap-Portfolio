@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0;
+    background-image: url("../images/prism.png");
+    background-repeat: repeat;
+    color: #777777;
+}
+
+h1, h2, h3, h4, h5, .serif-type {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+
+#top-custom-nav {
+    background-color: #4aaaa5;
+}
+
+.container-custom {
+    background-color: #fff;
+    margin-bottom: 75px;
+    max-width: 960px;
+}
+
+.headshot {
+    width: 100%;
+    max-width: 400px;
+    min-width: 230px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+hr.divider {
+    border-top: 1px solid #ddd;
+    margin-top: 0;
+}
+
+.custom-footer {
+    border-top: 5px solid #4aaaa5;
+    background-color: #666;
+}
+
+.copyright-text {
+    font-size: 12px;
+}
+
+  @media only screen and (min-width: 540px) {
+    .headshot {
+      float: left;
+      max-width: 200px;
+      margin-right: 1em;
+    }
+  }
+
+  /* Custom styles for contact.html */
+  .custom-submit {
+    background-color: #4aaaa5;
+    border: #777;
+  }
+
+  .custom-submit:hover {
+    background-color: #2f7a77;
+  }
+
+  /* Custom styles for portfolio.html */
+  .custom-card:hover {
+    box-shadow: 5px 5px 5px grey;
+  }
+
+  .custom-card-body {
+      background-color: #4aaaa5;
+  }
+
+  .custom-card-h5 {
+      text-align: center;
+  }
